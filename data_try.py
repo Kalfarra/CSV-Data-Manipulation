@@ -14,7 +14,7 @@ print("please input the file name, thank you!")
 filename = input()
 
 
-df = ps.read_csv("py/storage/"+filename+".csv")
+df = ps.read_csv("./storage/"+filename+".csv")
 
 def hypothesis(df, data, test, hyp):
     if(test == "confInt"):
